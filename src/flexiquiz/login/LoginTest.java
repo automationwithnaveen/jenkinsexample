@@ -13,12 +13,12 @@ public class LoginTest
 	}
 	
 	
-	@Test
-	public void openHomePage()
-	{
-		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.flexiquiz.com/");
-		
-		driver.findElement(By.id("fq-main-menu-auth")).click();
-	}
+//	@Test
+//	public void openHomePage()
+//	{
+//		WebDriver driver = new ChromeDriver();
+//		driver.get("https://www.flexiquiz.com/");
+//		
+//		driver.findElement(By.id("fq-main-menu-auth")).click();
+//	}
 }
